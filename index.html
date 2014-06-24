@@ -1,0 +1,41 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  First document of a game called..
+  Author: Carsten Thue-Bludworth
+  Modified: 21 June 2014
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
+    
+    <div id="bg_layer"></div>
+
+    <div id="container">
+        <div id="control_panel">
+            <div class="button_holder">
+                <a class="button">Console</a>
+                <a class="button">World Map</a>
+                <a class="button">Collections</a>
+            </div>
+            <div id="console">
+                <div id="textarea_holder">
+                <textarea id="terminal" spellcheck="false" autocomplete="off"></textarea>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="map">
+            <img style="background: url(grass3.jpg)" src="dude.png"></img>
+        </div>
+
+    </div> <!--container-->
+
+    <script type="text/javascript" src="../jquery.js"></script>
+    <script type="text/javascript" src="terminal.js"></script>
+
+    </body>
+</html> 
