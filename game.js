@@ -10,9 +10,9 @@ canvas.height= container.clientHeight;
 
 // Get a map from the server.
 $.ajax({
-    url: 'maps.php';
-    type: 'POST';
-    dataType: 'json'; 
+    url: 'maps.php',
+    type: 'POST',
+    dataType: 'json',
     success: function(result) {
         console.log("Successfully recieved map1.");
         console.log(result);
